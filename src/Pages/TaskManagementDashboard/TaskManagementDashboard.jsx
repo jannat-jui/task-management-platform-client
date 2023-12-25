@@ -20,7 +20,7 @@ const TaskManagementDashboard = () => {
                 <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content  flex flex-col">
 
-                    <label htmlFor="my-drawer-2" className="btn btn-primary bg-[#8d4dbf] border-none drawer-button lg:hidden">Open Dashboard</label>
+                    <label htmlFor="my-drawer-2" className="btn btn-primary bg-[#8d4dbf] border-none drawer-button lg:hidden text-white">Open Dashboard</label>
                     <Outlet></Outlet>
 
 

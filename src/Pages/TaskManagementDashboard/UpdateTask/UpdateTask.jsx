@@ -18,7 +18,7 @@ const UpdateTask = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/alltasks/todo/${id}`)
+        fetch(`https://task-management-platform-server-alpha.vercel.app/alltasks/todo/${id}`)
             .then(res => res.json())
             .then(data => setTodoData(data))
     }, [])
@@ -35,7 +35,7 @@ const UpdateTask = () => {
             description: description,
             deadline: deadline,
         }
-        const updateRes = await axios.put(`http://localhost:5000/alltasks/v2/${id}`, updateData);
+        const updateRes = await axios.put(`https://task-management-platform-server-alpha.vercel.app/alltasks/v2/${id}`, updateData);
         console.log(updateRes.data)
         if (updateRes.data.modifiedCount > 0) {
             //

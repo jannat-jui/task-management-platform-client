@@ -21,7 +21,7 @@ const CreateNewTask = () => {
     const { mutate } = useMutation({
         mutationKey: ['tasks'],
         mutationFn: (addingData) => {
-            return axios.post('http://localhost:5000/alltasks', addingData, { withCredentials: true, })
+            return axios.post('https://task-management-platform-server-alpha.vercel.app/alltasks', addingData, { withCredentials: true, })
         },
         onSuccess: () => {
             Swal.fire({

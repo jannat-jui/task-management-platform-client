@@ -2,7 +2,7 @@ import task from "../../../assets/task.png"
 
 const FeatureSection = () => {
     return (
-        <div className="flex justify-between items-center mx-[10%] my-20">
+        <div className="flex flex-col-reverse lg:flex-row justify-between items-center lg:mx-[10%] my-20">
             <section data-aos="flip-left"  data-aos-duration="1500" className="mt-8">
                 <h2 className="text-3xl font-semibold text-[#444] mb-4">Who Can Benefit?</h2>
                 <p className="text-gray-700 text-lg font-medium">
