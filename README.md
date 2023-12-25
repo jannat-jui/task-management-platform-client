@@ -1,5 +1,9 @@
 # Task Management Platform
 
+## Live Link: https://taskmanagement-44345.web.app/
+
+### Server Side Code Link: https://github.com/jannat-jui/task-management-platform-server
+
 Welcome to Task Management Platform – a collaborative task management platform built with React.js and Node.js!
 
 ## Overview
